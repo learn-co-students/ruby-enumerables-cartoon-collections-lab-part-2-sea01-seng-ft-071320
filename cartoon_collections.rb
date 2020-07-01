@@ -32,5 +32,7 @@ def find_valid_calls(planeteer_calls)
     valid_calls.find do |valid_call|
       valid_call === potential_valid_call
     end
+    
   end
+
 end
